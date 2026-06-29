@@ -1,0 +1,17 @@
+1. USER TABLE (FARMER)
+
+CREATE TABLE user (
+    userid VARCHAR(20) PRIMARY KEY,
+    username VARCHAR(100),
+    phno VARCHAR(20),
+    email VARCHAR(100),
+    dob VARCHAR(20),
+    gender VARCHAR(10),
+    img VARCHAR(100),
+    jdate VARCHAR(20),
+    pwd VARCHAR(50),
+    status VARCHAR(20)
+);
+
+
+

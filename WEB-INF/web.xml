@@ -1,0 +1,167 @@
+<web-app>
+
+<servlet>
+    <servlet-name>addproduct</servlet-name>
+    <servlet-class>AddProductServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>addproduct</servlet-name>
+    <url-pattern>/AddProductServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>searchproduct</servlet-name>
+    <servlet-class>SearchProductServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>searchproduct</servlet-name>
+    <url-pattern>/SearchProductServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>updateproduct</servlet-name>
+    <servlet-class>UpdateProductServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>updateproduct</servlet-name>
+    <url-pattern>/UpdateProductServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>customer</servlet-name>
+    <servlet-class>AddCustomerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>customer</servlet-name>
+    <url-pattern>/AddCustomerServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>modify</servlet-name>
+    <servlet-class>ModifyCustomerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>modify</servlet-name>
+    <url-pattern>/ModifyCustomerServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>UpdateCustomerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/UpdateCustomerServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+
+<servlet-name>searchproduct1</servlet-name>
+
+<servlet-class>
+SearchProductServlet1
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>searchproduct1</servlet-name>
+
+<url-pattern>/SearchProductServlet1</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>cart</servlet-name>
+<servlet-class>AddToCartServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>cart</servlet-name>
+<url-pattern>/AddToCartServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>placeorder</servlet-name>
+<servlet-class>PlaceOrderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>placeorder</servlet-name>
+<url-pattern>/PlaceOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>myorders</servlet-name>
+<servlet-class>MyOrdersServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>myorders</servlet-name>
+<url-pattern>/MyOrdersServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>review</servlet-name>
+<servlet-class>RateReviewServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>review</servlet-name>
+<url-pattern>/RateReviewServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>acceptorder</servlet-name>
+<servlet-class>AcceptOrderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>acceptorder</servlet-name>
+<url-pattern>/AcceptOrderServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>viewfarmer</servlet-name>
+<servlet-class>ViewFarmerDetailsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>viewfarmer</servlet-name>
+<url-pattern>/ViewFarmerDetailsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>viewcustomer</servlet-name>
+    <servlet-class>ViewCustomerDetailsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>viewcustomer</servlet-name>
+    <url-pattern>/ViewCustomerDetailsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ComplaintServlet</servlet-name>
+    <servlet-class>ComplaintServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ComplaintServlet</servlet-name>
+    <url-pattern>/ComplaintServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>FarmerRegisterServlet</servlet-name>
+    <servlet-class>FarmerRegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>FarmerRegisterServlet</servlet-name>
+    <url-pattern>/FarmerRegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CustomerRegisterServlet</servlet-name>
+    <servlet-class>CustomerRegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>CustomerRegisterServlet</servlet-name>
+    <url-pattern>/CustomerRegisterServlet</url-pattern>
+</servlet-mapping>
+</web-app>

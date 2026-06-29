@@ -1,0 +1,12 @@
+6. COMPLAINT TABLE
+
+
+CREATE TABLE complaint (
+    cid INT PRIMARY KEY AUTO_INCREMENT,
+    userid VARCHAR(20),
+    username VARCHAR(100),
+    usertype VARCHAR(20),
+    message VARCHAR(200),
+    cdate VARCHAR(20),
+    status VARCHAR(20)
+);

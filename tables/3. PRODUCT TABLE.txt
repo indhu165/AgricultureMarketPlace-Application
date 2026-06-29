@@ -1,0 +1,15 @@
+3. PRODUCT TABLE
+
+CREATE TABLE product (
+    productid VARCHAR(20) PRIMARY KEY,
+    productname VARCHAR(100),
+    category VARCHAR(50),
+    quantity VARCHAR(20),
+    price VARCHAR(20),
+    description VARCHAR(200),
+    image VARCHAR(100),
+    pdate VARCHAR(20),
+    status VARCHAR(20),
+    userid VARCHAR(20),
+    username VARCHAR(100)
+);

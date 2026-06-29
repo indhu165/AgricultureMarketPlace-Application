@@ -1,0 +1,16 @@
+4. ORDERS TABLE
+
+
+CREATE TABLE orders (
+    orderid INT PRIMARY KEY AUTO_INCREMENT,
+    userid VARCHAR(20),
+    productid VARCHAR(20),
+    productname VARCHAR(100),
+    price VARCHAR(20),
+    quantity VARCHAR(20),
+    amount VARCHAR(20),
+    orderdate VARCHAR(20),
+    status VARCHAR(20),
+    farmerid VARCHAR(20),
+    farmername VARCHAR(100)
+);

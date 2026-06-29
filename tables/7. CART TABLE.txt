@@ -1,0 +1,14 @@
+7. CART TABLE
+
+
+CREATE TABLE cart (
+    cartid INT PRIMARY KEY,
+    userid VARCHAR(20),
+    productid VARCHAR(20),
+    productname VARCHAR(100),
+    price VARCHAR(20),
+    quantity VARCHAR(20),
+    amount VARCHAR(20),
+    farmerid VARCHAR(20),
+    farmername VARCHAR(100)
+);

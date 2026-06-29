@@ -1,0 +1,13 @@
+5. REVIEW TABLE
+
+
+CREATE TABLE review (
+    reviewid INT PRIMARY KEY AUTO_INCREMENT,
+    productid VARCHAR(20),
+    productname VARCHAR(100),
+    userid VARCHAR(20),
+    username VARCHAR(100),
+    rating INT,
+    review VARCHAR(200),
+    rdate VARCHAR(20)
+);
