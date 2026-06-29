@@ -104,7 +104,7 @@ CREATE TABLE products (
 7. Deploy project on Tomcat server  
 8. Run in browser:  
 
-http://localhost:8080/AgricultureMarketPlace-Application/
+http://localhost:8081/AgricultureMarketPlace-Application/index.jsp
 
 ---
 
