@@ -30,35 +30,44 @@ This project is developed using **JSP, Servlets, MySQL, and Apache Tomcat**, foc
 
 ---
 
-## 📁 Project Structure
-------
+## 📂 Project Structure
 
-AgricultureMarketPlace-Application
+```---------------
+AgricultureMarketPlace-Application/
 │
-├── JSP Files/
+├── 📁 WebContent/
+│   ├── index.jsp
 │   ├── login.jsp
 │   ├── register.jsp
 │   ├── home.jsp
 │   ├── addproduct.jsp
+│   ├── searchproduct.jsp
 │   ├── viewproducts.jsp
+│   ├── viewcart.jsp
+│   ├── complaint.jsp
+│   ├── RateReview.jsp
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   └── WEB-INF/
+│       └── web.xml
 │
-├── tables/
-│   ├── database.sql
+├── 📁 src/
+│   └── com/
+│       └── agriculture/
+│           ├── dao/
+│           ├── model/
+│           ├── servlet/
+│           └── util/
 │
-├── WEB-INF/
-│   ├── src/
-│   │    └── servlets/
-│   │         ├── LoginServlet.java
-│   │         ├── RegisterServlet.java
-│   │         ├── ProductServlet.java
-│   │
-│   ├── lib/
-│   │    └── mysql-connector.jar
-│   │
-│   ├── classes/
-│   │
-│   ├── web.xml
-
+├── 📁 database/
+│   └── agriculture.sql
+│
+├── 📁 lib/
+│   └── mysql-connector.jar
+│
+└── README.md
+```
 
 
 🗄️ Database Setup
